@@ -1,0 +1,8 @@
+cd ~
+if [[ -d "/sdcard/Download/Yarasa/pak_folder" ]];then
+rm -rf "/sdcard/Download/Yarasa/pak_folder
+else
+echo""
+fi
+cd /data/data/com.termux/files/home/YarasaTRIO 
+bash setup 
